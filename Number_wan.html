@@ -11,11 +11,6 @@
  }
  let interval = setInterval(()=> {
  document.body.style.background = `rgb(${myRandom(0, 255)}, ${myRandom(0, 255)}, ${myRandom(0, 255)})`
-  let interval2 = setInterval(() => {
- let newColor = `rgb(${Math.random() * 256}, ${Math.random() * 256}, ${Math.random() * 256})`
- document.body.style.transition = "background-color 1s ease";
- document.body.style.backgroundColor = newColor;
-}, 300);
 
  }, 300)
  onclick = () => {
